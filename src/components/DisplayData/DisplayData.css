@@ -1,0 +1,24 @@
+/* src/components/DisplayData/DisplayData.css */
+.display-data {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.display-data h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.display-data p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.display-data hr {
+  border: none;
+  border-top: 1px solid #ddd;
+}

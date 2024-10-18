@@ -1,0 +1,45 @@
+/* src/components/DataInputForm.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 垂直居中 */
+  background-color: #f0f0f0; /* 背景顏色 */
+}
+
+.form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px; /* 更圓的邊角 */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* 更明顯的陰影 */
+  background-color: #ffffff; /* 表單背景顏色 */
+  width: 400px; /* 表單寬度 */
+}
+
+label {
+  display: block; /* 使標籤佔據一整行 */
+  margin-bottom: 8px; /* 標籤和輸入框之間的間距 */
+  font-weight: bold; /* 加粗標籤文字 */
+}
+
+input, textarea {
+  width: 100%; /* 輸入框和文本區域寬度 */
+  padding: 5px; /* 內邊距 */
+  margin-bottom: 16px; /* 輸入框之間的間距 */
+  border: 1px solid #ccc; /* 輸入框邊框 */
+  border-radius: 4px; /* 輸入框圓角 */
+}
+
+button {
+  background-color: #007bff; /* 按鈕背景顏色 */
+  color: white; /* 按鈕文字顏色 */
+  padding: 10px; /* 按鈕內邊距 */
+  border: none; /* 去掉按鈕邊框 */
+  border-radius: 4px; /* 按鈕圓角 */
+  cursor: pointer; /* 游標變成手指 */
+  width: 100%; /* 按鈕寬度 */
+}
+
+button:hover {
+  background-color: #0056b3; /* 鼠標懸停時的顏色 */
+}
