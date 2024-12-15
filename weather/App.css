@@ -1,0 +1,53 @@
+/* App.css */
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    min-height: 440px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-name {
+    font-size: 2.3rem;
+    color: rgb(17, 144, 0);
+    margin-bottom: 16px;
+}
+
+.city-search {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border: 2px solid rgb(204, 204, 204);
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #e5eef0;
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    padding: 12px 40px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    color: #333;
+}
+
+    .city-search:focus {
+        width: 100%;
+    }
+
+.ip-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.qr-code {
+    margin-top: 20px;
+}
+* {
+    font-family: Arial, sans-serif;
+}
