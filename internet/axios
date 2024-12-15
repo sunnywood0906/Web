@@ -1,0 +1,37 @@
+import axios from 'axios';
+
+// 创建axios实例
+const axiosInstance = axios.create({
+    baseURL: 'https://data.moenv.gov.tw/api/v2/aqx_p_432?language=zh&offset=0&limit=1000&api_key=%20604595b4-74bf-4590-adf6-180b44e49f3d', // 替换为你的API基础URL
+    timeout: 5000, // 请求超时时间
+    headers: {
+        'Content-Type': 'application/json',
+    },
+});
+
+// 请求拦截器
+axiosInstance.interceptors.request.use(
+    config => {
+        // 在发送请求前可以添加认证token
+        const token = localStorage.getItem('token');
+        if (token) {
+            config.headers.Authorization = `Bearer ${token}`;
+        }
+        return config;
+    },
+    error => Promise.reject(error)
+);
+
+// 响应拦截器
+axiosInstance.interceptors.response.use(
+    response => response,
+    error => {
+        // 统一处理错误，如刷新token或跳转到登录页
+        if (error.response && error.response.status === 401) {
+            console.error('未授权，请重新登录');
+        }
+        return Promise.reject(error);
+    }
+);
+
+export default axiosInstance;
