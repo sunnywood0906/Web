@@ -15,7 +15,7 @@
      <li><h4>主要程式碼：https://github.com/sunnywood0906/Web/tree/main/src</h4></li>
 </ul>
 <p><h3>HW3-React專案整合：</p>
-<li><h4>功能介紹：
+       <li><h4>功能介紹：
        <ul style='list-style-type'>
        <li><h5>1.整合天氣api、讀取ip位置及qrcode產生。</h5></li>
        <li><h5>2.不限國籍可查詢天氣</h5></li>
