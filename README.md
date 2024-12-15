@@ -19,7 +19,6 @@
        <ul style='list-style-type'>
        <li><h5>1.整合天氣api、讀取ip位置及qrcode產生。</h5></li>
        <li><h5>2.不限國籍可查詢天氣</h5></li>
-       </ul>
-       </h4></li>
+       </ul></h4></li>
        <li><h4>介紹影片：(有聲播放 :loud_sound:)https://youtu.be/HMpH9sHROBg?si=_wwHxrE1c87yqZmU</h4></li>
        <li><h4>主要程式碼：https://github.com/sunnywood0906/Web/tree/main/src</h4></li>
