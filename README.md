@@ -23,7 +23,7 @@
        </ul>    
      </h4></li>
      <li><h4>介紹影片：(有聲播放 :loud_sound:)https://youtu.be/HMpH9sHROBg?si=_wwHxrE1c87yqZmU</h4></li>
-     <li><h4>主要程式碼：https://github.com/sunnywood0906/Web/tree/main/src</h4></li>
+     <li><h4>主要程式碼：https://github.com/sunnywood0906/Web/tree/main/weather</h4></li>
 </ul>
 <p><h3></p>HW4-React台北空氣品質搜尋：</p>
 <ul style='list-style-type'>
