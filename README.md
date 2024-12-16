@@ -1,41 +1,70 @@
-<h3>歡迎來到我的Github :tada::tada:
-<P><h2>【以下是網際網路概論的各項作業】</P>
-<p><h3>HW1-個人網站：https://sunnywood0906.github.io/#</p>
-<p><h3></p>HW2-React表單設計：</p>
-<ul style='list-style-type'>
-     <li><h4>名稱：作業交了沒</h4></li>
-     <li><h4>功能介紹：
-       <ul style='list-style-type'>
-       <li><h5>1.可輸入各項作業名稱、截止日期和備註。</h5></li>
-       <li><h5>2.多元使用，不只局限於作業、也可作行事曆用～</h5></li>
-       <li><h5>3.支援Excel下載檔案，重要事項一覽無虞！</h5></li>
-       </ul>    
-     </h4></li>
-     <li><h4>介紹影片：(有聲播放 :loud_sound:)https://youtu.be/fgbZWyI5_WA</h4></li>
-     <li><h4>主要程式碼：https://github.com/sunnywood0906/Web/tree/main/src</h4></li>
-</ul>
-<p><h3></p>HW3-React專案整合：</p>
-<ul style='list-style-type'>
-     <li><h4>功能介紹：
-       <ul style='list-style-type'>
-       <li><h5>1.整合天氣api、讀取ip位置及qrcode產生。</h5></li>
-       <li><h5>2.不限國籍可查詢天氣。</h5></li>
-       </ul>    
-     </h4></li>
-     <li><h4>介紹影片：(有聲播放 :loud_sound:)https://youtu.be/HMpH9sHROBg?si=_wwHxrE1c87yqZmU</h4></li>
-     <li><h4>主要程式碼：https://github.com/sunnywood0906/Web/tree/main/weather</h4></li>
-</ul>
-<p><h3></p>HW4-React台北空氣品質搜尋：</p>
-<ul style='list-style-type'>
-     <li><h4>功能介紹：
-       <ul style='list-style-type'>
-       <li><h5>1.根據環境部開放資料API結合網頁設計即時更新。</h5></li>
-       <li><h5>2.選擇地區按下搜尋即可獲得當地各項空氣汙染指數。</h5></li>
-       <li><h5>3.可下載Excel檔儲存資訊。</h5></li>
-       <li><h5>4.AQI數值直接轉換快速取得天氣狀況。</h5></li>
-       <li><h5>5.附圖立即查看活動建議。</h5></li>
-       </ul>    
-     </h4></li>
-     <li><h4>介紹影片：(有聲播放 :loud_sound:)</h4></li>
-     <li><h4>主要程式碼：https://github.com/sunnywood0906/Web/tree/main/internet</h4></li>
-</ul>
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
