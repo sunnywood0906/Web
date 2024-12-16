@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.aqi-info {
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  align-items: center; /* 垂直置中 */
+  margin-top: 20px; /* 與上方資料留出間距 */
+}
+
+.aqi-image {
+  width: 100%; /* 預設圖片寬度為 100% 容器寬度 */
+  max-width: 800px; /* 限制最大寬度 */
+  height: auto; /* 確保按比例縮放 */
+  border: 1px solid #ccc; /* 可選：加邊框以區分 */
+  border-radius: 10px; /* 可選：圓角處理 */
+}
