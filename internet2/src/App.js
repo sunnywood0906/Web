@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Axios from 'axios';
+import axios from 'axios'; // 改為小寫
 import * as XLSX from 'xlsx'; // 引入 xlsx 套件
 import './App.css';
 
@@ -61,7 +61,7 @@ const AirQualitySearch = () => {
 
         const url = 'https://data.moenv.gov.tw/api/v2/aqx_p_434';
         const apiKey = 'c1193490-c4b3-4ab2-8a16-605b8ad25618';
-        const response = await Axios.get(url, {
+        const response = await axios.get(url, {
           params: {
             api_key: apiKey,
             format: 'json',
@@ -189,3 +189,4 @@ const AirQualitySearch = () => {
 };
 
 export default AirQualitySearch;
+
