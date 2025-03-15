@@ -36,5 +36,6 @@
        <li><h5>5.附圖立即查看活動建議。</h5></li>
        </ul>    
      </h4></li>
-     <li><h4>主要程式碼：https://github.com/sunnywood0906/Web/tree/main/internet</h4></li>
+     <li><h4>介紹影片：(有聲播放 :loud_sound:)https://youtu.be/HMpH9sHROBg?si=_wwHxrE1c87yqZmU</h4></li>
+     <li><h4>主要程式碼：https://youtu.be/es93lPCYgOY?si=VPL7d094uRocM2ey</h4></li>
 </ul>
